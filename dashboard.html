@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Demo Bank - Dashboard</title>
+    <style>
+        body { font-family: Arial; background: #eef; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+<h2>Welcome to Demo Bank</h2>
+
+<div class="card">
+    <h3>Your Balance:</h3>
+    <p id="balance">Loading...</p>
+</div>
+
+<div class="card">
+    <h3>Your Transactions:</h3>
+    <ul id="transactions"></ul>
+</div>
+
+<button onclick="logout()">Logout</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
